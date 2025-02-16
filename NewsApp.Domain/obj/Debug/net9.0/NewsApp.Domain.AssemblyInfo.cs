@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewsApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5756a084a80ca98421674f5f7a0591d524a2bfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9452420665b5480c5f8becb21407f3197a7e78d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewsApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewsApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
