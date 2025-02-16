@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "NewsApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/NewsApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewsApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NewsApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NewsApp.Domain/NewsApp.Domain.csproj",
+      "msbuildProject": "../NewsApp.Domain/NewsApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "NewsApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nanda\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

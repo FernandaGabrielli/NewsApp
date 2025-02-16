@@ -4,14 +4,77 @@
     "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj": {
+    "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj",
-        "projectName": "NewsApp.WorkerService",
-        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj",
+        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj",
+        "projectName": "NewsApp.Application",
+        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj",
         "packagesPath": "C:\\Users\\nanda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\obj\\",
+        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj",
+        "projectName": "NewsApp.Domain",
+        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\nanda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +106,223 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\NewsApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\NewsApp.Infrastructure.csproj",
+        "projectName": "NewsApp.Infrastructure",
+        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\NewsApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nanda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj"
+              },
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Domain\\NewsApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\NewsApp.Jobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\NewsApp.Jobs.csproj",
+        "projectName": "NewsApp.Jobs",
+        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\NewsApp.Jobs.csproj",
+        "packagesPath": "C:\\Users\\nanda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj",
+        "projectName": "NewsApp.WorkerService",
+        "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\NewsApp.WorkerService.csproj",
+        "packagesPath": "C:\\Users\\nanda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.WorkerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Application\\NewsApp.Application.csproj"
+              },
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\NewsApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Infrastructure\\NewsApp.Infrastructure.csproj"
+              },
+              "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\NewsApp.Jobs.csproj": {
+                "projectPath": "C:\\Users\\nanda\\NewsApp\\NewsApp.Jobs\\NewsApp.Jobs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.17, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.17, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[9.0.2, )"

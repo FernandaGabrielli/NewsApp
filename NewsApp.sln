@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsApp.Application", "News
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsApp.Infrastructure", "NewsApp.Infrastructure\NewsApp.Infrastructure.csproj", "{BABD9EBA-5878-4C54-A505-0BAE1F82E8E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsApp.Jobs", "NewsApp.Jobs\NewsApp.Jobs.csproj", "{BBC2DD64-F527-451B-B5FB-0EB42D213358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{BABD9EBA-5878-4C54-A505-0BAE1F82E8E1}.Release|x64.Build.0 = Release|Any CPU
 		{BABD9EBA-5878-4C54-A505-0BAE1F82E8E1}.Release|x86.ActiveCfg = Release|Any CPU
 		{BABD9EBA-5878-4C54-A505-0BAE1F82E8E1}.Release|x86.Build.0 = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|x64.Build.0 = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Debug|x86.Build.0 = Debug|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|x64.ActiveCfg = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|x64.Build.0 = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBC2DD64-F527-451B-B5FB-0EB42D213358}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
