@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewsApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2f2c3d9d91ea5f0caf035063886f3aee0dc961c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e734d7a4893035a1b7f9b1580f0222c606f2cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewsApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewsApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
