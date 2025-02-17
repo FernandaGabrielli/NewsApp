@@ -1,0 +1,12 @@
+C:\Users\nanda\NewsApp\NewsApp.Domain\bin\Debug\net9.0\NewsApp.Domain.deps.json
+C:\Users\nanda\NewsApp\NewsApp.Domain\bin\Debug\net9.0\NewsApp.Domain.dll
+C:\Users\nanda\NewsApp\NewsApp.Domain\bin\Debug\net9.0\NewsApp.Domain.pdb
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.AssemblyInfoInputs.cache
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.AssemblyInfo.cs
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.sourcelink.json
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.dll
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\refint\NewsApp.Domain.dll
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\NewsApp.Domain.pdb
+C:\Users\nanda\NewsApp\NewsApp.Domain\obj\Debug\net9.0\ref\NewsApp.Domain.dll

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using NewsApp.Application.DTOs;
 using NewsApp.Domain.Interfaces;
 
 namespace NewsApp.Application.UseCases

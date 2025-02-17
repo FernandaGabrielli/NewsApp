@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using NewsApp.Domain.Entities;
 using NewsApp.Domain.Interfaces;
 using NewsApp.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace NewsApp.Infrastructure.Repositories
 {

@@ -1,0 +1,16 @@
+C:\Users\nanda\NewsApp\NewsApp.Application\bin\Debug\net9.0\NewsApp.Application.deps.json
+C:\Users\nanda\NewsApp\NewsApp.Application\bin\Debug\net9.0\NewsApp.Application.dll
+C:\Users\nanda\NewsApp\NewsApp.Application\bin\Debug\net9.0\NewsApp.Application.pdb
+C:\Users\nanda\NewsApp\NewsApp.Application\bin\Debug\net9.0\NewsApp.Domain.dll
+C:\Users\nanda\NewsApp\NewsApp.Application\bin\Debug\net9.0\NewsApp.Domain.pdb
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.csproj.AssemblyReference.cache
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.AssemblyInfoInputs.cache
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.AssemblyInfo.cs
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.sourcelink.json
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp..1CF38F92.Up2Date
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.dll
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\refint\NewsApp.Application.dll
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\NewsApp.Application.pdb
+C:\Users\nanda\NewsApp\NewsApp.Application\obj\Debug\net9.0\ref\NewsApp.Application.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HKDm6WwfgUdePrNOWKJNcCz9PLzy6dVbLIUREhYAt8g=",
+  "Source": "NewsApp.WebAPI",
+  "BasePath": "_content/NewsApp.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
